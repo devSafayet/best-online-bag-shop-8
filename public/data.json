@@ -1,65 +1,65 @@
 [
     {
         "id": 1,
-        "name": "Baby Jilbab Full Set (Coffee)",
-        "img": "https://oubd-media.oneummahbd.com/uploads/2021/03/15194143/coffee2.jpg",
-        "price": "1700.00",
-        "category": "JILBAB"
+        "name": "Male Mochila Travel Bags 2019 New",
+        "img": "https://ae01.alicdn.com/kf/H2e488eb574a4458aa34517ed45356021D/OZUKO-Men-s-Multifunction-17-3-inch-Laptop-Backpacks-Fashion-Schoolbag-for-Teenager-Waterproof-Male-Mochila.jpg_640x640.jpg",
+        "price": "34.83",
+        "Brand": "OZUKO"
     },
     {
         "id": 2,
-        "name": "Baby Jilbab Full Set (Maroon)",
-        "img": "https://oubd-media.oneummahbd.com/uploads/2021/03/15194143/baby-jilbab-maroon-3-920x920.jpg",
-        "price": "1800.00",
-        "category": "JILBAB"
+        "name": "Charging Male Travel Bag",
+        "img": "https://ae01.alicdn.com/kf/H8103e07319a3459bafe8a679aa20c35ec/OZUKO-Men-Backpack-Large-Capacity-15-6-inch-Laptop-Backpack-With-Rain-Cover-Waterproof-Backpacks-USB.jpg_640x640.jpg",
+        "price": "33.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 3,
-        "name": "Baby Jilbab Full Set (Navy)",
-        "img": "https://oubd-media.oneummahbd.com/uploads/2021/03/15194143/baby-jilbab-navy-1-920x920.jpg",
-        "price": "1650.00",
-        "category": "JILBAB"
+        "name": "Male Short Travel Chest Fanny Pack",
+        "img": "https://ae01.alicdn.com/kf/Hf0d0984dc31041c282abd2733f823087C/OZUKO-Men-Waist-Bag-Multifunction-Waterproof-USB-Crossbody-Belt-Bag-Small-Phone-Pouch-Bags-Male-Short.jpg_640x640.jpg",
+        "price": "26.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 4,
-        "name": "Baby Jilbab Full Set (Purple)",
-        "img": "https://oubd-media.oneummahbd.com/uploads/2021/03/15194143/baby-jilbab-purple-1-920x920.jpg",
-        "price": "1700.00",
-        "category": "JILBAB"
+        "name": "Male Travel Bag High Capacity",
+        "img": "https://ae01.alicdn.com/kf/S024291f09aa84dd5b84e7db65286845bQ/OZUKO-Men-Laptop-Multifunction-Backpack-17-Inch-Waterproof-Functional-USB-Charging-Port-Backpacks-Male-Travel-Bag.jpg_640x640.jpg",
+        "price": "30.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 5,
-        "name": "Baby Jilbab Full Set (Black)",
-        "img": "https://oubd-media.oneummahbd.com/uploads/2021/03/15194143/black-2-920x920.jpg",
-        "price": "1720",
-        "category": "JILBAB"
+        "name": "Men Fanny Pack New Design",
+        "img": "https://ae01.alicdn.com/kf/Hacf748711e0e44fcae9f843a06b26cf5M/OZUKO-Hard-Shell-Crossbody-Bag-EVA-Material-Waterproof-Men-s-Waist-Bag-Chest-Pack-USB-Shoulder.jpg_640x640.jpg",
+        "price": "29.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 6,
-        "name": "",
-        "img": "",
-        "price": "",
-        "category": ""
+        "name": "Business Back Pack Travel Bag Mochila",
+        "img": "https://ae01.alicdn.com/kf/HTB1mNB5XITxK1Rjy0Fgq6yovpXaK/OZUKO-Men-s-17-Inch-Laptop-Backpack-Large-Capacity-Waterproof-Backpacks-for-Men-Male-USB-Business.jpg_640x640.jpg",
+        "price": "40.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 7,
-        "name": "",
-        "img": "",
-        "price": "",
-        "category": "JILBAB"
+        "name": "Women Pouch Bag Ladies Handbag Clutch",
+        "img": "https://ae01.alicdn.com/kf/H36f9fb368df3410396cf794e36aad141o/Plain-Leather-Shoulder-Bag-for-Women-s-2021-Top-handle-Bags-Summer-Colorful-Shoulder-Purse-Women.jpg_640x640.jpg",
+        "price": "23.00",
+        "Brand": "OZUKO"
     },
     {
         "id": 8,
-        "name": "",
-        "img": "",
-        "price": "",
-        "category": "JILBAB"
+        "name": "Genuine Leather Shoulder Woman Bag",
+        "img": "https://ae01.alicdn.com/kf/Sbd22471fb9f740bda22cd4368deaf5b2X/Zency-Genuine-Leather-Shoulder-Bag-Women-Luxury-Brand-Fashion-Shell-Armpit-Bag-Retro-Shopper-Tote-Handbag.png_640x640.png",
+        "price": "42.00",
+        "Brand": "ZENCY"
     },
     {
         "id": 9,
-        "name": "",
-        "img": "",
-        "price": "",
-        "category": "JILBAB"
+        "name": "Shopper Shoulder Woman Bag",
+        "img": "https://ae01.alicdn.com/kf/H6ca383ab34374898b586d7cb0ec9e3c1d/Zency-New-Genuine-Leather-Casual-Shopper-Shoulder-Bag-Commuter-Large-Bucket-Handbag-Simple-High-Quality-Women.jpg_640x640.jpg",
+        "price": "39.00",
+        "Brand": "ZENCY"
     }
 ]
