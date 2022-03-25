@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 
 const Products = () => {
+    // console.log(props)
     const [products, setProducts] = useState([]);
     useEffect(() => {
         fetch('data.json')
@@ -9,7 +11,13 @@ const Products = () => {
     }, []);
     return (
         <div>
-            <h1>Total Products: {products.length}</h1>
+            <div className=''>
+                {
+                    products.map(
+                        (products) => <Product key={products.id} products={products}></Product>
+                    )
+                }
+            </div>
         </div>
     );
 };
