@@ -9,5 +9,20 @@
     margin: 100px 50px;
 }
 .selected-products{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+.one-btn{
+    padding: 7px;
+    margin-bottom: 5px;
+    color: green;
+    background-color: white;
+}
+.one-btn:hover{
+    background-color: gainsboro;
+}
+.again-btn{
+    padding: 7px;
+    color: blue;
+    background-color: white;
 }

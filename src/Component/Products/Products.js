@@ -1,6 +1,7 @@
 import { faHourglass2 } from '@fortawesome/free-regular-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import QuestionAns from '../QuestionAns/QuestionAns';
 import SelectProduct from '../SelectProduct/SelectProduct';
 import './Products.css';
 
@@ -9,9 +10,14 @@ const Products = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
     // console.log(cart)
+
     const addToCard = (products) => {
         const newCart = [...cart, products];
-        setCart(newCart)
+        if (newCart.length > 4) {
+            alert('You Already Select Four Products.')
+            return newCart;
+        }
+        setCart(newCart);
     }
     useEffect(() => {
         fetch('data.json')
@@ -27,14 +33,19 @@ const Products = () => {
                     )
                 }
             </div>
+            {/* ------------Selected products Area -------------- */}
             <div className='selected-products'>
-                <h1>this is selects</h1>
+                <h1>Selected Products</h1>
                 {
                     cart.map((cart) => (
-                        <h3 key={cart.id}>{cart.name}</h3>
+                        <h4 key={cart.id}>{cart.name}</h4>
                     ))
                 }
+                <button className='one-btn'>CHOOSE 1 FOR ME</button> <br />
+                <button className='again-btn'>CHOOSE AGAIN</button>
             </div>
+            {/* Question And Answer Part  */}
+            <QuestionAns></QuestionAns>
         </div>
     );
 };

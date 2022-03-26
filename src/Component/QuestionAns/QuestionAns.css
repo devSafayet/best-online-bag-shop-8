@@ -1,0 +1,16 @@
+.questionAns{
+    background-color: aliceblue;
+}
+.questionAns h1{
+    text-align: center;
+    color: green;
+}
+.question{
+    color: blue;
+}
+.questionAns-1{
+    margin-left: 50px;
+}
+.questionAns-2{
+    margin-left: 50px;
+}
