@@ -3,7 +3,7 @@ import './Product.css'
 import { FaShoppingCart } from "@react-icons/all-files/fa/FaShoppingCart";
 
 const Product = ({ products, addToCard }) => {
-    const { id, name, img, price, Brand } = products;
+    const { name, img, price, Brand } = products;
     // console.log(products)
     return (
         <div className='all-product'>
@@ -13,7 +13,7 @@ const Product = ({ products, addToCard }) => {
                 <h3>Price: ${price}</h3>
                 <h3>Brand: {Brand} </h3>
             </div>
-            <button onClick={addToCard} className='button-cart'>
+            <button onClick={() => addToCard(products)} className='button-cart'>
                 <p className='button-text'> Add to Cart </p>
                 <FaShoppingCart />
             </button>
