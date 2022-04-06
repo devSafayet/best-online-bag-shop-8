@@ -1,28 +1,40 @@
-.shop-container{
+.shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.proudcts-container{
+
+.proudcts-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     margin: 100px 50px;
 }
-.selected-products{
+
+.selected-products {
     background-color: whitesmoke;
     padding-left: 10px;
 }
-.one-btn{
+
+.one-btn {
     padding: 7px;
     margin-bottom: 5px;
     color: green;
     background-color: white;
 }
-.one-btn:hover{
+
+.one-btn:hover {
     background-color: gainsboro;
 }
-.again-btn{
+
+.again-btn {
     padding: 7px;
     color: blue;
     background-color: white;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .proudcts-container {
+        grid-template-columns: repeat(2, 1fr);
+        background-color: red;
+    }
 }

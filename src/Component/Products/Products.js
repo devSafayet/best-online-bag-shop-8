@@ -2,7 +2,6 @@ import { faHourglass2 } from '@fortawesome/free-regular-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import QuestionAns from '../QuestionAns/QuestionAns';
-import SelectProduct from '../SelectProduct/SelectProduct';
 import './Products.css';
 
 const Products = () => {
